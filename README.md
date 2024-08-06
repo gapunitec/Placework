@@ -4,7 +4,7 @@ Placework is a free tool for generating visits. Neither a powerful PC nor downlo
 
 ## Installation
 
-- Place PlaceworkClient.lua in ReplicatedFirst
+- Place PlaceworkClient.rbxm in ReplicatedFirst
 - Place Placework.rbxm in ReplicatedStorage
 - Place PlaceworkServer.lua in ServerScriptService
 - Save to Roblox
