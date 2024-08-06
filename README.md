@@ -52,15 +52,20 @@ Replace the contents of PlaceworkServer.lua like this:
 ```lua
 game:GetService("ReplicatedStorage"):WaitForChild("Placework").OnServerInvoke = function()
 	local HttpService = game:GetService("HttpService")
-	--Configuration:
-	local ringRaw = "EXPERIENCEID0,EXPERIENCEID1"
-	local whitelistRaw = "USERID0,USERID1"
-	local ring = ringRaw:split(",") --Default: Public Ring (you can create one too!)
-	local whitelist = whitelistRaw:split(",") --Default: Public Whitelist (you can create one too!)
-	local speed = HttpService:GetAsync("https://pastebin.com/raw/UyjBcUX9") --Default: Placework Speed (you can only change it if you are not in the Public Ring)
+	
+	local ringRaw = "ExperienceId0,ExperienceId1"
+	local whitelistRaw = "UserId0,UserId1"
+	local ring = ringRaw:split(",")
+	local whitelist = whitelistRaw:split(",")
+	local speed = 5
 
-	...
-
+	for g, id in ipairs(ring) do
+		ring[g] = tonumber(id)
+	end
+	for g, id in ipairs(whitelist) do
+		whitelist[g] = tonumber(id)
+	end
+	
 	return {ring, whitelist, speed}
 end
 ```
