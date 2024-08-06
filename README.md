@@ -8,8 +8,10 @@ Placework is a free tool for generating visits. Neither a powerful PC nor downlo
 - Place Placework.rbxm in ReplicatedStorage
 - Place PlaceworkServer.lua in ServerScriptService
 - Save to Roblox
+- Game Settings -> Security -> Allow HTTP Requests
+- Game Settings -> Security -> Allow Third Party Teleports
 - Publish to Roblox (Alt+P)
-- Enter the whitelist (https://discord.gg/t5k4jnABBj)
+- Connect to the Public Ring (https://discord.gg/t5k4jnABBj)
 
 ![Logo](https://cdn.discordapp.com/attachments/1270179168663109703/1270323792631304355/image.png?ex=66b348b9&is=66b1f739&hm=1d138a1339fdc7bfa1a7b8bd32b699b8a2b9cffcac47a2875a76c0fb7fb78a5a&)
 
