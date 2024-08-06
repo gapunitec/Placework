@@ -47,7 +47,7 @@ Placework is a free tool for generating visits. Neither a powerful PC nor downlo
 | :-------- | :------- | :-------------------------------- |
 | `speed` | `number` | **Required**. Default: Placework Speed (you can only change it if you are not in the Public Ring) |
 
-## Run Locally (No Whitelist)
+## Run Locally (Private Ring)
 
 Replace the contents of PlaceworkServer.lua like this:
 
