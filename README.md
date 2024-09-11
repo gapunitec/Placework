@@ -6,7 +6,7 @@
  + [Take a copy](https://create.roblox.com/store/asset/89620544219193/Placework) of the Placework loader model from the Roblox Library.
  + Insert the model into Studio using the Toolbox, and place it under `ServerScriptService`.
 
- ### Method 2: GitHub Releases
+### Method 2: GitHub Releases
 
  + Download the `rbxm` file snapshot from the [latest release](https://github.com/gapunitec/Placework/releases/latest).
  + Import the model file into Studio.
@@ -17,6 +17,11 @@
  + Open `Security`
  + Enable `Allow HTTP Requests` and `Allow Third Party Teleports`
  + Click `Save`
+
+## Whitelist
+
+ + [Join](discord.gg/teZh5QSM9N)
+ + Open a ticket
 
 ## HttpService Reference
 
