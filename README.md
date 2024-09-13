@@ -13,15 +13,22 @@
 
 ## Configuration
 
+### Method 1 (recommended): Official Placework Ring
+
  + Open `Game Settings`
  + Open `Security`
  + Enable `Allow HTTP Requests` and `Allow Third Party Teleports`
  + Click `Save`
-
-## Whitelist
-
  + [Join](discord.gg/teZh5QSM9N)
  + Open a ticket
+
+### Method 2: Custom Ring
+
+ + Open `Game Settings`
+ + Open `Security`
+ + Enable `Allow Third Party Teleports`
+ + Click `Save`
+ +
 
 ## HttpService Reference
 
