@@ -24,11 +24,7 @@
 
 ### Method 2: Custom Ring
 
- + Open `Game Settings`
- + Open `Security`
- + Enable `Allow Third Party Teleports`
- + Click `Save`
- +
+ + Soon
 
 ## HttpService Reference
 
